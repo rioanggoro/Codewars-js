@@ -3,8 +3,7 @@
 //x=kelipatannya n=jumlah element pada array
 function countBy(x, n) {
   let z = [];
-  for (let i = 1; i <= n; i++) {
-    //i=1 lebih kecil sama dengan n
+  for (let i = 1; i <= n; i++) { //i=1 lebih kecil sama dengan n
     z.push(x * i);
   }
   return z;
